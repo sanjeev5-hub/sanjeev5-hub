@@ -7,6 +7,6 @@ def fib(n):
     return fib(n -1 ) + fib(n - 2)
 
 nums = [fib(i) for i in range(10)]
-print(nums)
+print(f"The nums is {nums}")
 
 
